@@ -1,0 +1,273 @@
+html
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    
+}
+
+ #pozadina
+{
+    position: fixed;
+    width: 100%;
+    height: 120%;
+    opacity: 90%;
+    z-index: -1;
+}
+
+ #html
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header
+{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 30px;
+    height: 120px;
+    margin-top: 0;
+}
+
+#logo
+{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+
+#menu
+{
+    width: 400px;
+    margin: 10px auto;
+}
+
+#menu a
+{
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 10px;
+    color: black;
+    margin-top: -10px;
+}
+
+.sidebar
+{
+    position: fixed;
+    left: 20px;
+    top: 270px;
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.sidebar li
+{
+    list-style-type: none;
+    text-align: left;
+    position: relative;
+    right: 20px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#link1
+{
+    margin-top: 30px;
+}
+
+#link4
+{
+    margin-bottom: 30px;
+}
+
+.sidebar a
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    opacity: 90%;
+}
+
+.sidebar a:hover
+{
+    font-weight: bold;
+}
+
+article
+{
+    margin: 0 100px;
+}
+
+div
+{
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#div1
+{
+    height: 350px;
+    width: 1100px;
+}
+
+#div2
+{
+    height: 480px;
+    width: 1100px;
+}
+
+#div3
+{
+    height: 740px;
+    width: 1100px;
+}
+
+#div4
+{
+    
+    width: 1100px;
+}
+
+#div5
+{
+    height: 200px;
+    opacity: 0;
+}
+
+section
+{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    padding: 40px;
+}
+
+#slikaSekcije1
+{
+  
+    width: 550px;
+    height: 340px;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+    bottom: 340px;
+    left: 550px;
+}
+
+#sekcija1
+{
+    width: 450px;
+    height: 260px;
+   
+}
+
+#sekcija2
+{
+    
+    width: 470px;
+    position: relative;
+    left: 550px;
+    bottom: 390px;
+}
+
+#slikaSekcije2
+{
+    position: relative;
+    top: 40px;
+    width: 530px;
+    height: 380px;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+    padding-top: 10px;
+}
+
+#sekcija3
+{
+    width: 450px;
+}
+
+#slikaSekcije3
+{
+    width: 550px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    left: 550px;
+    bottom: 660px;
+    margin: 0;
+}
+
+#slikaSekcije3_2
+{
+    width: 550px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    bottom: 620px;
+    left: 550px;
+    height: 300px;
+    margin: 0;
+}
+
+#slikaSekcije4
+{
+    position: relative;
+    width: 500px;
+    border-radius: 30px;
+}
+
+#slikaSekcije4_2
+{
+    width: 450px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+
+footer
+{
+    position: relative;
+    bottom: 0;
+    opacity: 0.9;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+footer:hover
+{
+    font-weight: lighter;
+}

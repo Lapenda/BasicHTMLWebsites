@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <img src="../images/nevera.jpg" alt="" id="slikaPozadine">
+    <header>
+        <h1><img src="../images/Rimac_Automobili_Logo_vertically_color-light.png" alt="" id="logo">Rimac Automobili-Bugatti Rimac</h1>
+        <nav id="menu">
+            <h2 style="width: 430px">
+                <hr>
+                <a href="../index.html" id="navlink1">Naslovnica</a>
+                <a href="../onama.html" target="_blank" id="navlink2">O nama</a>
+                <a href="../novosti.html" target="_blank" id="navlink4">Novosti</a>
+                <a href="../trgovina.html" target="_blank" id="navlink5">Trgovina</a>
+            </h2>
+        </nav>
+    </header>
+    
+    <article class="artilk1">
+        <h2>Kontaktirajte nas</h2>
+        <form action="">
+            <p>Upišite vaše ime: <input type="text" name="ime" placeholder="Ime" required autofocus></p>
+            <p>Upišite vaše prezime: <input type="text" name="prezime" placeholder="Prezime" required></p>
+            <p>e-mail: <input type="email" name="e-mail" placeholder="example@gmail.com" required></p>
+            
+            <ul>
+                Spol:<label for="musko"><input type="radio" name="spol" value="musko" id="musko" required>Muško</label>
+                    <label for="zensko"><input type="radio" name="spol" value="zensko" id="zensko" required>Žensko</label>
+            </ul>
+            
+            <p>Vaša poruka:</p>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" required></textarea>
+
+            <br>
+            <br>
+
+            Dob:
+            <select name="selektor" id="selektor">
+                <option value="18-24">18-24</option>
+                <option value="25-30">25-30</option>
+                <option value="31-37">31-37</option>
+                <option value="38+">38+</option>
+            </select>
+
+            <br>
+            <br>
+
+            <p>Šaljem:</p>
+            <ul>
+                <li><label for="1"><input type="checkbox" name="ponuda" id="ponuda">Ponudu za suradnju</label></li>
+                <li id="ziv"><label for="2"><input type="checkbox" name="zivotopis" id="zivotopis">Životopis</label></li>
+                <li><label for="3"><input type="checkbox" name="pismo" id="pismo">Motivacijsko pismo</label></li>
+            </ul>
+
+         
+            <br>
+            <br>
+            
+            <input type="reset" value="Reset" name="reset"> <input type="submit" value="Pošalji" name="submit" url="">
+        </form>
+    </article>
+
+    <article class="artikl2">
+        <a href="mailto: blapenda@tvz.hr?subject=Pozdrav admine">Pošaljite mail adminu stranice</a>
+    </article>
+        
+    <div class="div" style="text-align: center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.5375821320167!2d15.78897287639789!3d45.800491110937806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765cde06e0cf0b9%3A0x151f4c4262b1ff59!2sBugatti%20Rimac%20Headquarters!5e0!3m2!1sen!2shr!4v1686268815180!5m2!1sen!2shr" style="border-radius: 30px;" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <p>Borna Lapenda</p>
+        <p>JMBAG: 0246110955</p> 
+    </footer>
+</body>
+</html>
