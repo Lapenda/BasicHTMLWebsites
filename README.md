@@ -1,1 +1,1 @@
-Made static websites using plain HTML and CSS.
+Static websites using plain HTML and CSS.
